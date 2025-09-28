@@ -1,3 +1,9 @@
+# ---> Project files
+!lib/*.py
+lib/secrets.py
+!sd/
+sd/log.txt
+
 # ---> Linux
 *~
 
@@ -30,7 +36,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+![Ll]ib/
 lib64/
 parts/
 sdist/
@@ -611,7 +617,7 @@ FodyWeavers.xsd
 .Python
 [Bb]in
 [Ii]nclude
-[Ll]ib
+![Ll]ib
 [Ll]ib64
 [Ll]ocal
 [Ss]cripts
@@ -626,7 +632,7 @@ pip-selfcheck.json
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
 
 # Thumbnails
 ._*
